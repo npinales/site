@@ -1,0 +1,69 @@
+# This file controls the settings for your Quarto template from www.marvinschmitt.com
+
+# website settings
+website:
+  title: "Noni Pinales"                                
+  description: "Noni is a Research Coordinator in the PTSD Research and Treatment Program at Case Western Reserve University. She is also pursuing a Master of Science in Clinical Research" 
+  image: /NPinales_Pic.jpeg
+  
+  favicon: /NPinales_Pic.jpeg
+  
+  # start of the navigation bar at the top of the website
+  navbar:
+    pinned: true
+    logo: /brain.png
+    
+    # your sub-pages
+    left:
+      - text: "About Me"
+        href: projects/index.qmd
+      - text: "CV"
+        href: cv/index.qmd
+    
+    
+    # your social media handles
+    right:
+
+      - icon: linkedin
+        href: https://www.linkedin.com/in/noni-pinales-5a19782a1/
+      - icon: envelope
+        aria-label: email
+        href: "mailto:mail.nxs1002@case.edu"
+  
+  
+
+# Don't touch unless you know what you are doing :) ------------
+  search: 
+    location: navbar
+    type: textbox
+  page-footer: 
+    left: |
+      <span class="faux-block">&#169; 2025 Noni Pinales</span>
+    right: |
+      <span class="faux-block"><a href="https://github.com/marvinschmitt/quarto-website-template/">Template by Marvin Schmitt</a></span>
+
+project:
+  type: website
+  output-dir: docs
+
+  preview: 
+    port: 22222
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+execute:
+  freeze: true
+
+format:
+  html:
+    fontsize: 1.1em
+    theme: 
+      - pulse
+      - html/styles.scss
+    toc: false
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true

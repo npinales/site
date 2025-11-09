@@ -1,0 +1,26 @@
+---
+about:
+  template: jolla
+  id: about-block
+  image: "npin_icon.jpg"
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/noni-pinales-5a19782a1/
+    - icon: envelope
+      text: Email
+      href: "mailto:mail.nxs1002@case.edu"  
+---
+
+
+# Welcome to the website of Noni Pinales
+## Thanks for stopping by!
+
+Noni Pinales is a Research Coordinator at the PTSD Research and Treatment Program at Case Western Reserve University. She coordinates a multi-site trial evaluating a novel PTSD intervention. 
+
+She is also currently expanding her research skills by pursuing a Master of Science in Clinical Research at Case Western Reserve University. Noni's research interests lie in mechanism and intervention research for OCD and PTSD. 
+
+Please feel free to [contact me](mailto:mail.nxs1002@case.edu) if you have any questions or would like to discuss potential collaborations. 
+
+Noni built this Github website in R and thanks Marvin Schmitt for the template.
+
